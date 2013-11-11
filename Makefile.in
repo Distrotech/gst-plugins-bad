@@ -97,7 +97,7 @@ DIST_COMMON = $(top_srcdir)/common/win32.mak \
 	$(srcdir)/config.h.in $(srcdir)/gst-plugins-bad.spec.in \
 	$(top_srcdir)/win32/common/config.h.in ABOUT-NLS COPYING \
 	COPYING.LIB compile config.guess config.rpath config.sub \
-	install-sh missing ltmain.sh
+	depcomp install-sh missing ltmain.sh
 subdir = .
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/common/m4/as-ac-expand.m4 \
